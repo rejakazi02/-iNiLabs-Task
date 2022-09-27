@@ -1,0 +1,82 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.header-And-nav .header-bar-main-div {
+  background: #7e33e0;
+  width: 100%;
+  height: 44px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+.header-And-nav .header-bar-main-div .hearder-contact-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-left: 50px;
+}
+.header-And-nav .header-bar-main-div .hearder-contact-div .header-mail-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.header-And-nav .header-bar-main-div .hearder-contact-div .header-mail-div img {
+  width: 13.33px;
+  height: 10.67px;
+}
+.header-And-nav .header-bar-main-div .hearder-contact-div .header-mail-div p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #f1f1f1;
+}
+.header-And-nav .header-bar-main-div .header-loin-div {
+  display: flex;
+  gap: 10px;
+}
+.header-And-nav .header-bar-main-div .header-loin-div .header-other-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.header-And-nav .header-bar-main-div .header-loin-div .header-other-div img {
+  width: 13.34px;
+  height: 12.31px;
+}
+.header-And-nav .header-bar-main-div .header-loin-div .header-other-div p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #f1f1f1;
+}
+.header-And-nav .header-bar-main-div .header-loin-div .header-other-div select {
+  background-color: #7e33e0;
+  color: #f1f1f1;
+  border: none;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #f1f1f1;
+}
+.header-And-nav .header-bar-main-div .header-loin-div .header-other-div .login-img {
+  width: 20px;
+  height: 12px;
+}
+.header-And-nav .header-bar-main-div .header-loin-div .header-other-div .cart-img {
+  width: 35px;
+  height: 27px;
+}/*# sourceMappingURL=style.css.map */
