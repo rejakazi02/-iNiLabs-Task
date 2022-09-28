@@ -132,6 +132,9 @@ body {
         line-height: 34px;
 
         color: #0d0e43;
+        a{
+          text-decoration: none;
+        }
       }
     }
 
@@ -144,6 +147,8 @@ body {
 
         li {
           list-style: none;
+          a{
+            text-decoration: none;
           font-family: "Lato";
           font-style: normal;
           font-weight: 400;
@@ -155,6 +160,8 @@ body {
             width: 10px;
             height: 5px;
           }
+          }
+          
         }
 
         .home-btn {
@@ -977,6 +984,9 @@ main {
         font-family: "Josefin Sans";
         font-size: 38px;
         color: #000000;
+        a{
+          text-decoration: none;
+        }
       }
 
       .sign-up-div {

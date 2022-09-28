@@ -108,6 +108,9 @@ body {
   line-height: 34px;
   color: #0d0e43;
 }
+.header-And-nav .nav-main-div .logo-div h1 a {
+  text-decoration: none;
+}
 .header-And-nav .nav-main-div .nav-menu-main-div {
   margin-left: 3%;
 }
@@ -117,6 +120,9 @@ body {
 }
 .header-And-nav .nav-main-div .nav-menu-main-div ul li {
   list-style: none;
+}
+.header-And-nav .nav-main-div .nav-menu-main-div ul li a {
+  text-decoration: none;
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
@@ -124,7 +130,7 @@ body {
   line-height: 20px;
   color: #0d0e43;
 }
-.header-And-nav .nav-main-div .nav-menu-main-div ul li img {
+.header-And-nav .nav-main-div .nav-menu-main-div ul li a img {
   width: 10px;
   height: 5px;
 }
@@ -742,6 +748,9 @@ main .all-products-section .all-products-main-div .all-products-sub-div3 .seat-c
   font-family: "Josefin Sans";
   font-size: 38px;
   color: #000000;
+}
+.footer .footer-main-div .info-main-div h1 a {
+  text-decoration: none;
 }
 .footer .footer-main-div .info-main-div .sign-up-div {
   display: flex;
