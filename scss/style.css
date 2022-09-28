@@ -250,4 +250,77 @@ main .banner-section .banner-section-main-div .bannar-image-div .img-div4 .img1 
   position: absolute;
   width: 66.56px;
   height: 68.49px;
+}
+main .featured-Products-section {
+  margin: 20px 160px;
+}
+main .featured-Products-section .swiper {
+  width: 100%;
+  height: 100%;
+}
+main .featured-Products-section .swiper h1 {
+  text-align: center;
+  font-family: "Josefin Sans";
+  font-size: 42px;
+  line-height: 49px;
+  color: #1a0b5b;
+}
+main .featured-Products-section .swiper .swiper-wrapper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background-color: #f6f7fb;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .featured-Products-section .swiper .swiper-wrapper .swiper-slide .card {
+  margin: 0;
+  padding: 3px;
+  width: 100%;
+}
+main .featured-Products-section .swiper .swiper-wrapper .swiper-slide .card img {
+  padding-top: 35px;
+  width: 178px;
+  height: 178px;
+}
+main .featured-Products-section .swiper .swiper-wrapper .swiper-slide .card .container {
+  background: #ffffff;
+  padding: 20px 0;
+}
+main .featured-Products-section .swiper .swiper-wrapper .swiper-slide .card .container h4 {
+  text-align: center;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 8px;
+  color: #fb2e86;
+}
+main .featured-Products-section .swiper .swiper-wrapper .swiper-slide .card .container p {
+  font-family: "Josefin Sans";
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #151875;
+}
+main .featured-Products-section .swiper .swiper-wrapper .swiper-slide .card:hover .container {
+  background-color: #7e33e0;
+  color: #ffffff;
+}
+main .featured-Products-section .swiper .swiper-wrapper .swiper-slide .card:hover .container h4 {
+  color: #ffffff;
+}
+main .featured-Products-section .swiper .swiper-wrapper .swiper-slide .card:hover .container p {
+  color: #ffffff;
+}
+main .featured-Products-section .swiper .swiper-pagination {
+  display: none !important;
+}
+main .featured-Products-section p {
+  font-family: "Josefin Sans";
+  font-size: 22px;
+  line-height: 49px;
+  text-align: center;
+  color: #0b5b16;
 }/*# sourceMappingURL=style.css.map */
