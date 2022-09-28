@@ -26,3 +26,19 @@ var swiper = new Swiper(".mySwiper", {
       },
     },
   });
+
+
+
+  //tab section  function openItems();
+  
+  function openItems(itemName) {
+    var i;
+    var x = document.getElementsByClassName("items");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+      
+    }
+    document.getElementById(itemName).style.display = "block";  
+ 
+    
+  }

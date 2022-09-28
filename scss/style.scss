@@ -351,7 +351,7 @@ main {
             padding: 3px;
             width: 100%;
             img {
-                padding-top: 35px;
+              padding-top: 35px;
               width: 178px;
               height: 178px;
             }
@@ -379,17 +379,16 @@ main {
             }
           }
 
-    .card:hover .container{
-    background-color: #7e33e0;
-    color: #ffffff;
-    h4{
-        color: #ffffff;
-    }
-    p{
-        color: #ffffff;
-    }
-}
-
+          .card:hover .container {
+            background-color: #7e33e0;
+            color: #ffffff;
+            h4 {
+              color: #ffffff;
+            }
+            p {
+              color: #ffffff;
+            }
+          }
         }
 
         //   .swiper-slide img {
@@ -405,15 +404,129 @@ main {
       }
     }
 
+    p {
+      font-family: "Josefin Sans";
+      font-size: 22px;
+      line-height: 49px;
+      text-align: center;
+      color: #0b5b16;
+    }
+  }
+
+  // leatest-Products-section start here
+
+  .leatest-Products-section {
+    margin: 20px 160px;
+
+    .leatest-Products-header {
+      h2 {
+        font-family: "Josefin Sans";
+        font-size: 42px;
+        line-height: 49px;
+
+        text-align: center;
+
+        color: #151875;
+      }
+    }
+    .tab-section-div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+
+      button {
+        border: none;
+        background-color: white;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        /* identical to box height */
+        // border-bottom: 2px solid cadetblue;
+
+        /* pink */
+
+        color: #fb2e86;
+      }
+
+      button:hover {
+        background-color: cadetblue;
+        color: #f2f0ff;
+      }
+    }
+
+    .all-product-main-div {
+      .sub-main-div {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+        margin-top: 30px;
+        gap: 30px;
+        .card {
+          margin: 0;
+          padding: 4px;
+          width: 100%;
+          background-color: #f6f7fb;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          border: 1px solid brown;
+          img {
+            padding-top: 35px;
+            width: 178px;
+            height: 178px;
+          }
+
+          .container {
+            background: #ffffff;
+            padding: 20px 0;
+            width: 100%;
+            display: flex;
+            align-items: baseline;
+            justify-content: space-around;
+            h4 {
+              text-align: center;
+              font-family: "Lato";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 18px;
+              line-height: 8px;
+
+              color: #fb2e86;
+            }
+            p {
+              font-family: "Josefin Sans";
+              font-size: 14px;
+              line-height: 16px;
+              text-align: center;
+              color: #151875;
+            }
+          }
+        }
+
+        .card:hover {
+          box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+        }
+      }
+    }
+
 p{
-    font-family: 'Josefin Sans';
-font-size: 22px;
-line-height: 49px;
-text-align: center;
-color: #0b5b16;
+  font-family: "Josefin Sans";
+    font-size: 22px;
+    line-height: 49px;
+    text-align: center;
+    color: #0b5b16;
 }
 
   }
+
+  // What Shopex Offer! section start here 
+  
+
+
 
   // end
 }

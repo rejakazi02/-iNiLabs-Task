@@ -323,4 +323,93 @@ main .featured-Products-section p {
   line-height: 49px;
   text-align: center;
   color: #0b5b16;
+}
+main .leatest-Products-section {
+  margin: 20px 160px;
+}
+main .leatest-Products-section .leatest-Products-header h2 {
+  font-family: "Josefin Sans";
+  font-size: 42px;
+  line-height: 49px;
+  text-align: center;
+  color: #151875;
+}
+main .leatest-Products-section .tab-section-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+main .leatest-Products-section .tab-section-div button {
+  border: none;
+  background-color: white;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  /* pink */
+  color: #fb2e86;
+}
+main .leatest-Products-section .tab-section-div button:hover {
+  background-color: cadetblue;
+  color: #f2f0ff;
+}
+main .leatest-Products-section .all-product-main-div .sub-main-div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  margin-top: 30px;
+  gap: 30px;
+}
+main .leatest-Products-section .all-product-main-div .sub-main-div .card {
+  margin: 0;
+  padding: 4px;
+  width: 100%;
+  background-color: #f6f7fb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid brown;
+}
+main .leatest-Products-section .all-product-main-div .sub-main-div .card img {
+  padding-top: 35px;
+  width: 178px;
+  height: 178px;
+}
+main .leatest-Products-section .all-product-main-div .sub-main-div .card .container {
+  background: #ffffff;
+  padding: 20px 0;
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+}
+main .leatest-Products-section .all-product-main-div .sub-main-div .card .container h4 {
+  text-align: center;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 8px;
+  color: #fb2e86;
+}
+main .leatest-Products-section .all-product-main-div .sub-main-div .card .container p {
+  font-family: "Josefin Sans";
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #151875;
+}
+main .leatest-Products-section .all-product-main-div .sub-main-div .card:hover {
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+}
+main .leatest-Products-section p {
+  font-family: "Josefin Sans";
+  font-size: 22px;
+  line-height: 49px;
+  text-align: center;
+  color: #0b5b16;
 }/*# sourceMappingURL=style.css.map */
