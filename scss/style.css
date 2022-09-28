@@ -471,10 +471,10 @@ main .shop-offer-section .shope-offer-main-div .card .container p {
   margin-top: -10px;
   color: rgba(26, 11, 91, 0.3);
 }
-main .trending-Poducts-section {
+main .Unique-Poducts-section {
   margin-top: 6%;
 }
-main .trending-Poducts-section .trending-Poducts-main-div {
+main .Unique-Poducts-section .trending-Poducts-main-div {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: center;
@@ -483,40 +483,40 @@ main .trending-Poducts-section .trending-Poducts-main-div {
   padding-bottom: 70px;
   gap: 30px;
 }
-main .trending-Poducts-section .trending-Poducts-main-div .product-img-div {
+main .Unique-Poducts-section .trending-Poducts-main-div .product-img-div {
   margin: 8% 0;
 }
-main .trending-Poducts-section .trending-Poducts-main-div .product-img-div .img-div1 {
+main .Unique-Poducts-section .trending-Poducts-main-div .product-img-div .img-div1 {
   position: relative;
   width: 100%;
   display: flex;
   justify-content: end;
 }
-main .trending-Poducts-section .trending-Poducts-main-div .product-img-div .img-div1 img {
+main .Unique-Poducts-section .trending-Poducts-main-div .product-img-div .img-div1 img {
   position: absolute;
   width: 280px;
   height: 280px;
 }
-main .trending-Poducts-section .trending-Poducts-main-div .product-img-div .img-div2 {
+main .Unique-Poducts-section .trending-Poducts-main-div .product-img-div .img-div2 {
   position: relative;
   width: 100%;
   display: flex;
   justify-content: end;
 }
-main .trending-Poducts-section .trending-Poducts-main-div .product-img-div .img-div2 img {
+main .Unique-Poducts-section .trending-Poducts-main-div .product-img-div .img-div2 img {
   position: absolute;
   width: 260px;
   height: 260px;
 }
-main .trending-Poducts-section .trending-Poducts-main-div .product-details-main-div h2 {
+main .Unique-Poducts-section .trending-Poducts-main-div .product-details-main-div h2 {
   font-family: "Josefin Sans";
   font-size: 35px;
   color: #151875;
 }
-main .trending-Poducts-section .trending-Poducts-main-div .product-details-main-div ul {
+main .Unique-Poducts-section .trending-Poducts-main-div .product-details-main-div ul {
   padding-left: 17px;
 }
-main .trending-Poducts-section .trending-Poducts-main-div .product-details-main-div ul li {
+main .Unique-Poducts-section .trending-Poducts-main-div .product-details-main-div ul li {
   padding: 0;
   font-family: "Lato";
   font-style: normal;
@@ -524,29 +524,29 @@ main .trending-Poducts-section .trending-Poducts-main-div .product-details-main-
   font-size: 16px;
   line-height: 30px;
   /* or 21px */
-  color: #ACABC3;
+  color: #acabc3;
 }
-main .trending-Poducts-section .trending-Poducts-main-div .product-details-main-div .btn-div {
+main .Unique-Poducts-section .trending-Poducts-main-div .product-details-main-div .btn-div {
   display: flex;
   gap: 30px;
 }
-main .trending-Poducts-section .trending-Poducts-main-div .product-details-main-div .btn-div button {
-  background: #FB2E86;
+main .Unique-Poducts-section .trending-Poducts-main-div .product-details-main-div .btn-div button {
+  background: #fb2e86;
   border-radius: 2px;
   font-family: "Josefin Sans";
   font-size: 17px;
   line-height: 20px;
   letter-spacing: 0.02em;
   border: none;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 5px 20px;
 }
-main .trending-Poducts-section .trending-Poducts-main-div .product-details-main-div .btn-div button:hover {
-  background-color: #FFFFFF;
-  border: 2px solid #FB2E86;
-  color: #FB2E86;
+main .Unique-Poducts-section .trending-Poducts-main-div .product-details-main-div .btn-div button:hover {
+  background-color: #ffffff;
+  border: 2px solid #fb2e86;
+  color: #fb2e86;
 }
-main .trending-Poducts-section .trending-Poducts-main-div .product-details-main-div .btn-div .price-div p {
+main .Unique-Poducts-section .trending-Poducts-main-div .product-details-main-div .btn-div .price-div p {
   font-family: "Josefin Sans";
   font-size: 10px;
   color: #151875;
@@ -613,4 +613,115 @@ main .trending-Products-section p {
   line-height: 49px;
   text-align: center;
   color: #0b5b16;
+}
+main .all-products-section {
+  margin: 20px 160px;
+}
+main .all-products-section .all-products-main-div {
+  display: grid;
+  grid-template-columns: 1.8fr 2.3fr 1.3fr;
+  gap: 20px;
+  background-color: #ffffff;
+}
+main .all-products-section .all-products-main-div .all-products-sub-div1 {
+  background: #f6f7fb;
+  height: 270px;
+  padding: 25px 25px;
+  box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
+}
+main .all-products-section .all-products-main-div .all-products-sub-div1 h2 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  color: #151875;
+}
+main .all-products-section .all-products-main-div .all-products-sub-div1 a {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  border-bottom: 2px solid #fb2e86;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: #fb2e86;
+}
+main .all-products-section .all-products-main-div .all-products-sub-div1 img {
+  width: 213px;
+  height: 213px;
+  margin-left: 35%;
+  margin-top: -45px;
+}
+main .all-products-section .all-products-main-div .all-products-sub-div2 {
+  background: #eeeffb;
+  height: 270px;
+  padding: 25px 25px;
+  box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
+}
+main .all-products-section .all-products-main-div .all-products-sub-div2 h2 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  color: #151875;
+}
+main .all-products-section .all-products-main-div .all-products-sub-div2 a {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  border-bottom: 2px solid #fb2e86;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: #fb2e86;
+}
+main .all-products-section .all-products-main-div .all-products-sub-div2 img {
+  width: 312px;
+  height: 173px;
+  margin-left: 20%;
+  margin-top: -10px;
+}
+main .all-products-section .all-products-main-div .all-products-sub-div3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 7px 0;
+}
+main .all-products-section .all-products-main-div .all-products-sub-div3 .seat-chair-div {
+  display: flex;
+  gap: 10px;
+}
+main .all-products-section .all-products-main-div .all-products-sub-div3 .seat-chair-div .img-div {
+  width: 107px;
+  height: 74px;
+  background-color: #f5f6f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .all-products-section .all-products-main-div .all-products-sub-div3 .seat-chair-div .img-div img {
+  width: 64px;
+  height: 71px;
+}
+main .all-products-section .all-products-main-div .all-products-sub-div3 .seat-chair-div .text-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 0px;
+}
+main .all-products-section .all-products-main-div .all-products-sub-div3 .seat-chair-div .text-div h1 {
+  font-family: "Josefin Sans";
+  font-size: 11px;
+  color: #151875;
+}
+main .all-products-section .all-products-main-div .all-products-sub-div3 .seat-chair-div .text-div P {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  color: #151875;
 }/*# sourceMappingURL=style.css.map */

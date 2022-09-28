@@ -592,7 +592,7 @@ main {
 
   // <!-- Unique Features Of leatest & Trending Poducts start here  -->
 
-  .trending-Poducts-section {
+  .Unique-Poducts-section {
     margin-top: 6%;
     // padding-bottom: 20px;
     .trending-Poducts-main-div {
@@ -631,79 +631,66 @@ main {
         }
       }
 
+      .product-details-main-div {
+        h2 {
+          font-family: "Josefin Sans";
+          font-size: 35px;
+          color: #151875;
+        }
 
-.product-details-main-div{
+        ul {
+          padding-left: 17px;
+          li {
+            padding: 0;
+            font-family: "Lato";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 30px;
+            /* or 21px */
 
+            // letter-spacing: 0.015em;
 
-  h2{
-    font-family: 'Josefin Sans';
-font-size: 35px;
-color: #151875;
-  }
+            color: #acabc3;
+          }
+        }
 
-ul{
-  padding-left: 17px;
-  li{
+        .btn-div {
+          display: flex;
+          gap: 30px;
+          button {
+            background: #fb2e86;
+            border-radius: 2px;
+            font-family: "Josefin Sans";
+            font-size: 17px;
+            line-height: 20px;
+            letter-spacing: 0.02em;
+            border: none;
+            color: #ffffff;
+            padding: 5px 20px;
+          }
 
-padding: 0;
-    font-family: 'Lato';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 30px;
-/* or 21px */
+          button:hover {
+            background-color: #ffffff;
+            border: 2px solid #fb2e86;
+            color: #fb2e86;
+          }
 
-// letter-spacing: 0.015em;
+          .price-div {
+            p {
+              font-family: "Josefin Sans";
+              font-size: 10px;
+              // line-height: 16px;
 
-color: #ACABC3;
-  }
-}
-
-
-.btn-div{
-  display: flex;
-  gap: 30px;
-  button{
-    background: #FB2E86;
-border-radius: 2px;
-font-family: 'Josefin Sans';
-font-size: 17px;
-line-height: 20px;
-letter-spacing: 0.02em;
-border: none;
-color: #FFFFFF;
-padding: 5px 20px;
-
-  }
-
-  button:hover{
-    background-color: #FFFFFF;
-    border: 2px solid #FB2E86;
-    color: #FB2E86;
-  }
-
-.price-div{
-  p{
-    font-family: 'Josefin Sans';
-font-size: 10px;
-// line-height: 16px;
-
-
-color: #151875;
-  }
-}
-
-}
-
-
-}
-
-
+              color: #151875;
+            }
+          }
+        }
+      }
     }
   }
 
-
-  // Trending Products start here 
+  // Trending Products start here
 
   .trending-Products-section {
     // width: 100%;
@@ -806,7 +793,132 @@ color: #151875;
       color: #0b5b16;
     }
   }
-  
+
+  // <!-- 23% off in all products section start here  -->
+
+  .all-products-section {
+    margin: 20px 160px;
+
+    .all-products-main-div {
+      display: grid;
+      grid-template-columns: 1.8fr 2.3fr 1.3fr;
+      gap: 20px;
+      background-color: #ffffff;
+      .all-products-sub-div1 {
+        background: #f6f7fb;
+        height: 270px;
+        padding: 25px 25px;
+        box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
+
+        h2 {
+          font-family: "Josefin Sans";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 26px;
+
+          color: #151875;
+        }
+
+        a {
+          font-family: "Lato";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 19px;
+          border-bottom: 2px solid #fb2e86;
+          text-decoration-line: none;
+          color: #fb2e86;
+        }
+
+        img {
+          width: 213px;
+          height: 213px;
+          margin-left: 35%;
+          margin-top: -45px;
+        }
+      }
+
+      .all-products-sub-div2 {
+        background: #eeeffb;
+        height: 270px;
+        padding: 25px 25px;
+        box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
+
+        h2 {
+          font-family: "Josefin Sans";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 26px;
+
+          color: #151875;
+        }
+
+        a {
+          font-family: "Lato";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 19px;
+          border-bottom: 2px solid #fb2e86;
+          text-decoration-line: none;
+          color: #fb2e86;
+        }
+
+        img {
+          width: 312px;
+          height: 173px;
+          margin-left: 20%;
+          margin-top: -10px;
+        }
+      }
+
+      .all-products-sub-div3 {
+        
+        display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 7px 0;
+        .seat-chair-div {
+          display: flex;
+          gap: 10px;
+
+          .img-div {
+            width: 107px;
+            height: 74px;
+            background-color: #f5f6f8;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+              width: 64px;
+              height: 71px;
+            }
+          }
+
+          .text-div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            line-height: 0px;
+            h1 {
+              font-family: "Josefin Sans";
+              font-size: 11px;
+              color: #151875;
+            }
+
+            P {
+              font-family: "Josefin Sans";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 10px;
+              text-decoration-line: line-through;
+              color: #151875;
+            }
+          }
+        }
+      }
+    }
+  }
 
   // end
 }
