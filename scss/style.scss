@@ -830,12 +830,15 @@ main {
           color: #fb2e86;
         }
 
-        img {
-          width: 213px;
-          height: 213px;
-          margin-left: 35%;
-          margin-top: -45px;
+        .img-div{
+          img {
+            width: 213px;
+            height: 213px;
+            margin-left: 35%;
+            margin-top: -45px;
+          }
         }
+       
       }
 
       .all-products-sub-div2 {
@@ -864,12 +867,15 @@ main {
           color: #fb2e86;
         }
 
-        img {
-          width: 312px;
-          height: 173px;
-          margin-left: 20%;
-          margin-top: -10px;
+        .img-div{
+          img {
+            width: 312px;
+            height: 173px;
+            margin-left: 20%;
+            margin-top: -10px;
+          }
         }
+       
       }
 
       .all-products-sub-div3 {
@@ -919,6 +925,19 @@ main {
       }
     }
   }
+
+
+
+  // <!-- footer section start here  -->
+
+  .footer{
+
+
+  }
+
+
+
+
 
   // end
 }

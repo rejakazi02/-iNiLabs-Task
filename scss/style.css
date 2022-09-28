@@ -647,7 +647,7 @@ main .all-products-section .all-products-main-div .all-products-sub-div1 a {
           text-decoration-line: none;
   color: #fb2e86;
 }
-main .all-products-section .all-products-main-div .all-products-sub-div1 img {
+main .all-products-section .all-products-main-div .all-products-sub-div1 .img-div img {
   width: 213px;
   height: 213px;
   margin-left: 35%;
@@ -677,7 +677,7 @@ main .all-products-section .all-products-main-div .all-products-sub-div2 a {
           text-decoration-line: none;
   color: #fb2e86;
 }
-main .all-products-section .all-products-main-div .all-products-sub-div2 img {
+main .all-products-section .all-products-main-div .all-products-sub-div2 .img-div img {
   width: 312px;
   height: 173px;
   margin-left: 20%;
