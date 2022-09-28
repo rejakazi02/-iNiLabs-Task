@@ -440,6 +440,7 @@ main .shop-offer-section .shope-offer-main-div .card {
   align-items: center;
   justify-content: center;
   border: 3px solid #f6f7fb;
+  box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
 }
 main .shop-offer-section .shope-offer-main-div .card img {
   padding-top: 35px;
@@ -469,4 +470,84 @@ main .shop-offer-section .shope-offer-main-div .card .container p {
   text-align: center;
   margin-top: -10px;
   color: rgba(26, 11, 91, 0.3);
+}
+main .trending-Poducts-section {
+  margin-top: 6%;
+}
+main .trending-Poducts-section .trending-Poducts-main-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  background: #f1f0ff;
+  padding: 30px 0;
+  padding-bottom: 70px;
+  gap: 30px;
+}
+main .trending-Poducts-section .trending-Poducts-main-div .product-img-div {
+  margin: 8% 0;
+}
+main .trending-Poducts-section .trending-Poducts-main-div .product-img-div .img-div1 {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+main .trending-Poducts-section .trending-Poducts-main-div .product-img-div .img-div1 img {
+  position: absolute;
+  width: 280px;
+  height: 280px;
+}
+main .trending-Poducts-section .trending-Poducts-main-div .product-img-div .img-div2 {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+main .trending-Poducts-section .trending-Poducts-main-div .product-img-div .img-div2 img {
+  position: absolute;
+  width: 260px;
+  height: 260px;
+}
+main .trending-Poducts-section .trending-Poducts-main-div .product-details-main-div h2 {
+  font-family: "Josefin Sans";
+  font-size: 35px;
+  color: #151875;
+}
+main .trending-Poducts-section .trending-Poducts-main-div .product-details-main-div ul {
+  padding-left: 17px;
+}
+main .trending-Poducts-section .trending-Poducts-main-div .product-details-main-div ul li {
+  padding: 0;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  /* or 21px */
+  color: #ACABC3;
+}
+main .trending-Poducts-section .trending-Poducts-main-div .product-details-main-div .btn-div {
+  display: flex;
+  gap: 30px;
+}
+main .trending-Poducts-section .trending-Poducts-main-div .product-details-main-div .btn-div button {
+  background: #FB2E86;
+  border-radius: 2px;
+  font-family: "Josefin Sans";
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  border: none;
+  color: #FFFFFF;
+  padding: 5px 20px;
+}
+main .trending-Poducts-section .trending-Poducts-main-div .product-details-main-div .btn-div button:hover {
+  background-color: #FFFFFF;
+  border: 2px solid #FB2E86;
+  color: #FB2E86;
+}
+main .trending-Poducts-section .trending-Poducts-main-div .product-details-main-div .btn-div .price-div p {
+  font-family: "Josefin Sans";
+  font-size: 10px;
+  color: #151875;
 }/*# sourceMappingURL=style.css.map */
