@@ -724,4 +724,136 @@ main .all-products-section .all-products-main-div .all-products-sub-div3 .seat-c
   -webkit-text-decoration-line: line-through;
           text-decoration-line: line-through;
   color: #151875;
+}
+
+.footer {
+  margin-top: 90px;
+  background: #eeeffb;
+}
+.footer .footer-main-div {
+  padding-bottom: 60px;
+  padding-top: 30px;
+  margin: 0px 130px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 60px;
+}
+.footer .footer-main-div .info-main-div h1 {
+  font-family: "Josefin Sans";
+  font-size: 38px;
+  color: #000000;
+}
+.footer .footer-main-div .info-main-div .sign-up-div {
+  display: flex;
+}
+.footer .footer-main-div .info-main-div .sign-up-div input {
+  background: #ffffff;
+  opacity: 0.45;
+  border-radius: 3px;
+  width: 300px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  border: none;
+  color: #8a8fb9;
+  padding: 10px 0 10px 20px;
+}
+.footer .footer-main-div .info-main-div .sign-up-div button {
+  width: 107px;
+  height: 44px;
+  background: #fb2e86;
+  border-radius: 3px;
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #eeeffb;
+}
+.footer .footer-main-div .info-main-div p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #8a8fb9;
+}
+.footer .footer-main-div .catagories-div {
+  margin-top: 22px;
+}
+.footer .footer-main-div .catagories-div h1 {
+  font-family: "Josefin Sans";
+  font-size: 22px;
+  color: #000000;
+}
+.footer .footer-main-div .catagories-div .link-div a {
+  text-decoration: none;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 39px;
+  color: #8a8fb9;
+}
+.footer .footer-main-div .customer-Care-div {
+  margin-top: 22px;
+}
+.footer .footer-main-div .customer-Care-div h1 {
+  font-family: "Josefin Sans";
+  font-size: 22px;
+  color: #000000;
+}
+.footer .footer-main-div .customer-Care-div .link-div a {
+  text-decoration: none;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 39px;
+  color: #8a8fb9;
+}
+.footer .footer-main-div .Pages-div {
+  margin-top: 22px;
+}
+.footer .footer-main-div .Pages-div h1 {
+  font-family: "Josefin Sans";
+  font-size: 22px;
+  color: #000000;
+}
+.footer .footer-main-div .Pages-div .link-div a {
+  text-decoration: none;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 39px;
+  color: #8a8fb9;
+}
+.footer .copy-right-main-div {
+  background: #e7e4f8;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.footer .copy-right-main-div .copy-right-text-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer .copy-right-main-div .copy-right-text-div p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #9da0ae;
+}
+.footer .copy-right-main-div .social-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer .copy-right-main-div .social-div img {
+  width: 47px;
+  height: 35px;
 }/*# sourceMappingURL=style.css.map */

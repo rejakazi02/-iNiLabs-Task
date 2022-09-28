@@ -2,12 +2,13 @@ body {
   padding: 0;
   margin: 0;
 }
-// header and nav section start here
+
+// header and nav section start here----------------------------------
 .header-And-nav {
   position: sticky;
   top: 0;
   z-index: 111111111111111;
-  //   header-bar-main-div start
+  //   header-bar-main-div start----------------------------------
 
   .header-bar-main-div {
     // position: absolute;
@@ -26,11 +27,13 @@ body {
       justify-content: center;
       gap: 50px;
       margin-left: 50px;
+
       .header-mail-div {
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 12px;
+
         img {
           width: 13.33px;
           height: 10.67px;
@@ -54,11 +57,13 @@ body {
     .header-loin-div {
       display: flex;
       gap: 10px;
+
       .header-other-div {
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 5px;
+
         img {
           width: 13.34px;
           height: 12.31px;
@@ -88,6 +93,7 @@ body {
 
           color: #f1f1f1;
         }
+
         .login-img {
           width: 20px;
           height: 12px;
@@ -101,7 +107,7 @@ body {
     }
   }
 
-  // nav-main-div start
+  // nav-main-div start---------------------------------------------------
 
   .nav-main-div {
     width: 100%;
@@ -117,6 +123,7 @@ body {
       align-items: end;
       justify-content: end;
       margin-right: 1.5%;
+
       h1 {
         font-family: "Josefin Sans";
         font-style: normal;
@@ -134,6 +141,7 @@ body {
       ul {
         display: flex;
         gap: 7%;
+
         li {
           list-style: none;
           font-family: "Lato";
@@ -165,10 +173,12 @@ body {
         align-items: center;
         gap: 3px;
         width: 50%;
+
         input {
           width: 90%;
           height: 40px;
         }
+
         img {
           width: 20px;
           height: 20px;
@@ -179,12 +189,12 @@ body {
   }
 }
 
-// <!-- main body section start here  -->
+// <!-- main body section start here  -->----------------------------------
 
 main {
   margin-top: 90px;
 
-  // banner-section start here
+  // banner-section start here---------------------------------------------
 
   .banner-section {
     .banner-section-main-div {
@@ -194,9 +204,11 @@ main {
       display: grid;
       grid-template-columns: 1fr 2fr 2.5fr;
       padding: 40px 0px 100px 0;
+
       .banner-light-img-div {
         display: flex;
         justify-content: end;
+
         img {
           height: 235px;
           width: 200px;
@@ -210,6 +222,7 @@ main {
         display: flex;
         flex-direction: column;
         justify-content: center;
+
         p {
           font-family: "Lato";
           font-style: normal;
@@ -267,6 +280,7 @@ main {
         .img-div2 {
           position: relative;
           margin: 55px 0 0 50px;
+
           .img1 {
             position: absolute;
             width: 351px;
@@ -278,6 +292,7 @@ main {
         .img-div3 {
           position: relative;
           margin: 65px 0 0 50px;
+
           .img1 {
             position: absolute;
             width: 351px;
@@ -285,9 +300,11 @@ main {
             //   z-index: -1;
           }
         }
+
         .img-div4 {
           position: relative;
           margin: 0 0 0 350px;
+
           p {
             position: absolute;
             z-index: 1;
@@ -298,6 +315,7 @@ main {
 
             color: #ffffff;
           }
+
           .img1 {
             position: absolute;
             width: 66.56px;
@@ -309,15 +327,17 @@ main {
     }
   }
 
-  //   featured-Products-section start here
+  //   featured-Products-section start here-----------------------------------
 
   .featured-Products-section {
     // width: 100%;
     // height: 400px;
     margin: 20px 160px;
+
     .swiper {
       width: 100%;
       height: 100%;
+
       h1 {
         text-align: center;
         font-family: "Josefin Sans";
@@ -326,6 +346,7 @@ main {
 
         color: #1a0b5b;
       }
+
       .swiper-wrapper {
         .swiper-slide {
           text-align: center;
@@ -350,6 +371,7 @@ main {
             margin: 0;
             padding: 3px;
             width: 100%;
+
             img {
               padding-top: 35px;
               width: 178px;
@@ -359,6 +381,7 @@ main {
             .container {
               background: #ffffff;
               padding: 20px 0;
+
               h4 {
                 text-align: center;
                 font-family: "Lato";
@@ -369,6 +392,7 @@ main {
 
                 color: #fb2e86;
               }
+
               p {
                 font-family: "Josefin Sans";
                 font-size: 14px;
@@ -382,21 +406,18 @@ main {
           .card:hover .container {
             background-color: #7e33e0;
             color: #ffffff;
+
             h4 {
               color: #ffffff;
             }
+
             p {
               color: #ffffff;
             }
           }
         }
 
-        //   .swiper-slide img {
-        //     display: block;
-        //     width: 100%;
-        //     height: 100%;
-        //     object-fit: cover;
-        //   }
+      
       }
 
       .swiper-pagination {
@@ -413,7 +434,7 @@ main {
     }
   }
 
-  // leatest-Products-section start here
+  // leatest-Products-section start here------------------------------------
 
   .leatest-Products-section {
     margin: 20px 160px;
@@ -429,6 +450,7 @@ main {
         color: #151875;
       }
     }
+
     .tab-section-div {
       display: flex;
       align-items: center;
@@ -464,6 +486,7 @@ main {
         width: 100%;
         margin-top: 30px;
         gap: 30px;
+
         .card {
           margin: 0;
           padding: 4px;
@@ -474,6 +497,7 @@ main {
           align-items: center;
           justify-content: center;
           border: 1px solid brown;
+
           img {
             padding-top: 35px;
             width: 178px;
@@ -487,6 +511,7 @@ main {
             display: flex;
             align-items: baseline;
             justify-content: space-around;
+
             h4 {
               text-align: center;
               font-family: "Lato";
@@ -497,6 +522,7 @@ main {
 
               color: #fb2e86;
             }
+
             p {
               font-family: "Josefin Sans";
               font-size: 14px;
@@ -522,10 +548,11 @@ main {
     }
   }
 
-  // What Shopex Offer! section start here
+  // What Shopex Offer! section start here------------------------------------
 
   .shop-offer-section {
     margin: 20px 160px;
+
     h1 {
       font-family: "Josefin Sans";
       font-size: 42px;
@@ -542,6 +569,7 @@ main {
       width: 100%;
       margin-top: 30px;
       gap: 30px;
+
       .card {
         margin: 0;
         padding: 4px;
@@ -568,6 +596,7 @@ main {
           flex-direction: column;
           align-items: center;
           justify-content: center;
+
           h4 {
             font-family: "Josefin Sans";
             font-size: 22px;
@@ -575,6 +604,7 @@ main {
 
             color: #151875;
           }
+
           p {
             font-family: "Lato";
             font-style: normal;
@@ -590,10 +620,11 @@ main {
     }
   }
 
-  // <!-- Unique Features Of leatest & Trending Poducts start here  -->
+  // <!-- Unique Features Of leatest & Trending Poducts start here  ----------------------------
 
   .Unique-Poducts-section {
     margin-top: 6%;
+
     // padding-bottom: 20px;
     .trending-Poducts-main-div {
       display: grid;
@@ -606,11 +637,13 @@ main {
 
       .product-img-div {
         margin: 8% 0;
+
         .img-div1 {
           position: relative;
           width: 100%;
           display: flex;
           justify-content: end;
+
           img {
             position: absolute;
             width: 280px;
@@ -623,6 +656,7 @@ main {
           width: 100%;
           display: flex;
           justify-content: end;
+
           img {
             position: absolute;
             width: 260px;
@@ -640,6 +674,7 @@ main {
 
         ul {
           padding-left: 17px;
+
           li {
             padding: 0;
             font-family: "Lato";
@@ -658,6 +693,7 @@ main {
         .btn-div {
           display: flex;
           gap: 30px;
+
           button {
             background: #fb2e86;
             border-radius: 2px;
@@ -690,15 +726,17 @@ main {
     }
   }
 
-  // Trending Products start here
+  // Trending Products start here--------------------------------------------
 
   .trending-Products-section {
     // width: 100%;
     // height: 400px;
     margin: 20px 160px;
+
     .swiper {
       width: 100%;
       height: 100%;
+
       h1 {
         text-align: center;
         font-family: "Josefin Sans";
@@ -707,6 +745,7 @@ main {
 
         color: #1a0b5b;
       }
+
       .swiper-wrapper {
         .swiper-slide {
           text-align: center;
@@ -731,6 +770,7 @@ main {
             margin: 0;
             padding: 3px;
             width: 100%;
+
             img {
               padding-top: 35px;
               width: 178px;
@@ -740,6 +780,7 @@ main {
             .container {
               background: #ffffff;
               padding: 20px 0;
+
               h4 {
                 text-align: center;
                 font-family: "Lato";
@@ -750,6 +791,7 @@ main {
 
                 color: #fb2e86;
               }
+
               p {
                 font-family: "Josefin Sans";
                 font-size: 14px;
@@ -760,24 +802,10 @@ main {
             }
           }
 
-          // .card:hover .container {
-          //   background-color: #7e33e0;
-          //   color: #ffffff;
-          //   h4 {
-          //     color: #ffffff;
-          //   }
-          //   p {
-          //     color: #ffffff;
-          //   }
-          // }
+        
         }
 
-        //   .swiper-slide img {
-        //     display: block;
-        //     width: 100%;
-        //     height: 100%;
-        //     object-fit: cover;
-        //   }
+       
       }
 
       .swiper-pagination {
@@ -794,7 +822,7 @@ main {
     }
   }
 
-  // <!-- 23% off in all products section start here  -->
+  // <!-- 23% off in all products section start here  -------------------------------------------
 
   .all-products-section {
     margin: 20px 160px;
@@ -804,6 +832,7 @@ main {
       grid-template-columns: 1.8fr 2.3fr 1.3fr;
       gap: 20px;
       background-color: #ffffff;
+
       .all-products-sub-div1 {
         background: #f6f7fb;
         height: 270px;
@@ -830,7 +859,7 @@ main {
           color: #fb2e86;
         }
 
-        .img-div{
+        .img-div {
           img {
             width: 213px;
             height: 213px;
@@ -838,7 +867,6 @@ main {
             margin-top: -45px;
           }
         }
-       
       }
 
       .all-products-sub-div2 {
@@ -867,7 +895,7 @@ main {
           color: #fb2e86;
         }
 
-        .img-div{
+        .img-div {
           img {
             width: 312px;
             height: 173px;
@@ -875,15 +903,14 @@ main {
             margin-top: -10px;
           }
         }
-       
       }
 
       .all-products-sub-div3 {
-        
         display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 7px 0;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 7px 0;
+
         .seat-chair-div {
           display: flex;
           gap: 10px;
@@ -895,6 +922,7 @@ main {
             display: flex;
             align-items: center;
             justify-content: center;
+
             img {
               width: 64px;
               height: 71px;
@@ -906,6 +934,7 @@ main {
             flex-direction: column;
             justify-content: center;
             line-height: 0px;
+
             h1 {
               font-family: "Josefin Sans";
               font-size: 11px;
@@ -926,18 +955,174 @@ main {
     }
   }
 
+  // end
+}
 
+// <!-- footer section start here  -------------------------------------------
 
-  // <!-- footer section start here  -->
+.footer {
+  margin-top: 90px;
+  background: #eeeffb;
 
-  .footer{
+  .footer-main-div {
+    padding-bottom: 60px;
+    padding-top: 30px;
+    margin: 0px 130px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 60px;
 
+    .info-main-div {
+      h1 {
+        font-family: "Josefin Sans";
+        font-size: 38px;
+        color: #000000;
+      }
 
+      .sign-up-div {
+        display: flex;
+
+        input {
+          background: #ffffff;
+          opacity: 0.45;
+          border-radius: 3px;
+          width: 300px;
+          height: 24px;
+          // padding-left: 20px;
+          font-family: "Lato";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          border: none;
+          color: #8a8fb9;
+          padding: 10px 0 10px 20px;
+        }
+
+        button {
+          width: 107px;
+          height: 44px;
+          background: #fb2e86;
+          border-radius: 3px;
+          // padding: 10px 0 10px 0px;
+          border: none;
+
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+
+          color: #eeeffb;
+        }
+      }
+
+      p {
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+
+        color: #8a8fb9;
+      }
+    }
+
+    .catagories-div {
+      margin-top: 22px;
+
+      h1 {
+        font-family: "Josefin Sans";
+        font-size: 22px;
+        color: #000000;
+      }
+
+      .link-div {
+        a {
+          text-decoration: none;
+          font-family: "Lato";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 39px;
+          color: #8a8fb9;
+        }
+      }
+    }
+
+    .customer-Care-div {
+      margin-top: 22px;
+
+      h1 {
+        font-family: "Josefin Sans";
+        font-size: 22px;
+        color: #000000;
+      }
+
+      .link-div {
+        a {
+          text-decoration: none;
+          font-family: "Lato";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 39px;
+          color: #8a8fb9;
+        }
+      }
+    }
+
+    .Pages-div {
+      margin-top: 22px;
+
+      h1 {
+        font-family: "Josefin Sans";
+        font-size: 22px;
+        color: #000000;
+      }
+
+      .link-div {
+        a {
+          text-decoration: none;
+          font-family: "Lato";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 39px;
+          color: #8a8fb9;
+        }
+      }
+    }
   }
 
+  // <!-- copy-right-main-div srtar here  -->
 
+  .copy-right-main-div {
+    background: #e7e4f8;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
+    .copy-right-text-div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
+      p {
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        color: #9da0ae;
+      }
+    }
 
-  // end
+    .social-div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        width: 47px;
+        height: 35px;
+      }
+    }
+  }
 }
