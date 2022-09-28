@@ -524,7 +524,81 @@ p{
   }
 
   // What Shopex Offer! section start here 
-  
+
+  .shop-offer-section{
+
+    margin: 20px 160px;
+    h1{
+      font-family: 'Josefin Sans';
+font-size: 42px;
+line-height: 49px;
+
+text-align: center;
+
+color: #151875;
+    }
+
+.shope-offer-main-div{
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  margin-top: 30px;
+  gap: 30px;
+  .card {
+    margin: 0;
+    padding: 4px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #f6f7fb;
+   
+    img {
+      padding-top: 35px;
+      width: 77px;
+      height: 50px;
+    }
+
+    .container {
+      background: #ffffff;
+      padding: 20px 0;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      h4 {
+        font-family: 'Josefin Sans';
+font-size: 22px;
+// line-height: 26px;
+
+
+
+color: #151875;
+      }
+      p {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        padding: 0 10px;
+        text-align: center;
+        margin-top: -10px;
+        color: rgba(26, 11, 91, 0.3);
+      }
+    }
+  }
+
+}
+
+
+
+
+
+  }
 
 
 
