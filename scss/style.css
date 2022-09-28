@@ -550,4 +550,67 @@ main .trending-Poducts-section .trending-Poducts-main-div .product-details-main-
   font-family: "Josefin Sans";
   font-size: 10px;
   color: #151875;
+}
+main .trending-Products-section {
+  margin: 20px 160px;
+}
+main .trending-Products-section .swiper {
+  width: 100%;
+  height: 100%;
+}
+main .trending-Products-section .swiper h1 {
+  text-align: center;
+  font-family: "Josefin Sans";
+  font-size: 42px;
+  line-height: 49px;
+  color: #1a0b5b;
+}
+main .trending-Products-section .swiper .swiper-wrapper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background-color: #f6f7fb;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .trending-Products-section .swiper .swiper-wrapper .swiper-slide .card {
+  margin: 0;
+  padding: 3px;
+  width: 100%;
+}
+main .trending-Products-section .swiper .swiper-wrapper .swiper-slide .card img {
+  padding-top: 35px;
+  width: 178px;
+  height: 178px;
+}
+main .trending-Products-section .swiper .swiper-wrapper .swiper-slide .card .container {
+  background: #ffffff;
+  padding: 20px 0;
+}
+main .trending-Products-section .swiper .swiper-wrapper .swiper-slide .card .container h4 {
+  text-align: center;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 8px;
+  color: #fb2e86;
+}
+main .trending-Products-section .swiper .swiper-wrapper .swiper-slide .card .container p {
+  font-family: "Josefin Sans";
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #151875;
+}
+main .trending-Products-section .swiper .swiper-pagination {
+  display: none !important;
+}
+main .trending-Products-section p {
+  font-family: "Josefin Sans";
+  font-size: 22px;
+  line-height: 49px;
+  text-align: center;
+  color: #0b5b16;
 }/*# sourceMappingURL=style.css.map */

@@ -702,5 +702,111 @@ color: #151875;
     }
   }
 
+
+  // Trending Products start here 
+
+  .trending-Products-section {
+    // width: 100%;
+    // height: 400px;
+    margin: 20px 160px;
+    .swiper {
+      width: 100%;
+      height: 100%;
+      h1 {
+        text-align: center;
+        font-family: "Josefin Sans";
+        font-size: 42px;
+        line-height: 49px;
+
+        color: #1a0b5b;
+      }
+      .swiper-wrapper {
+        .swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          background-color: #f6f7fb;
+
+          /* Center slide text vertically */
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          -webkit-align-items: center;
+          align-items: center;
+
+          .card {
+            margin: 0;
+            padding: 3px;
+            width: 100%;
+            img {
+              padding-top: 35px;
+              width: 178px;
+              height: 178px;
+            }
+
+            .container {
+              background: #ffffff;
+              padding: 20px 0;
+              h4 {
+                text-align: center;
+                font-family: "Lato";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 8px;
+
+                color: #fb2e86;
+              }
+              p {
+                font-family: "Josefin Sans";
+                font-size: 14px;
+                line-height: 16px;
+                text-align: center;
+                color: #151875;
+              }
+            }
+          }
+
+          // .card:hover .container {
+          //   background-color: #7e33e0;
+          //   color: #ffffff;
+          //   h4 {
+          //     color: #ffffff;
+          //   }
+          //   p {
+          //     color: #ffffff;
+          //   }
+          // }
+        }
+
+        //   .swiper-slide img {
+        //     display: block;
+        //     width: 100%;
+        //     height: 100%;
+        //     object-fit: cover;
+        //   }
+      }
+
+      .swiper-pagination {
+        display: none !important;
+      }
+    }
+
+    p {
+      font-family: "Josefin Sans";
+      font-size: 22px;
+      line-height: 49px;
+      text-align: center;
+      color: #0b5b16;
+    }
+  }
+  
+
   // end
 }
